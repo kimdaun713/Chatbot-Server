@@ -4,7 +4,7 @@ from vllm import LLM, SamplingParams
 
 
 app = FastAPI()
-#
+
 model_path = '/home/sslab/LLM/Models/EEVE-Korean-Instruct-10.8B-v1.0'
 llm = LLM(model=model_path, max_model_len=2704)
 
